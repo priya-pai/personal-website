@@ -4,7 +4,7 @@ import './App.css';
 import {About} from './pages/about/about.js';
 import {Experience} from './pages/experience/experience.js';
 import {Projects} from './pages/projects/projects.js';
-import { Link, BrowserRouter as Router, Route } from "react-router-dom";
+import {  NavLink,Link, BrowserRouter as Router, Route } from "react-router-dom";
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
@@ -30,14 +30,14 @@ function App() {
   const classes = useStyles();
   return (
     <section className="App">
+      <Router>
       <AppBar position="static" className={classes.nav}>
-        <Toolbar>
-        <a href="/" className={classes.lnk}>About</a>
-        <a href="/projects" className={classes.lnk}>Projects</a>
-        <a href="/experience" className={classes.lnk}>Experience</a>
+        <Toolbar id="nav">
+        <NavLink tag={Link} className={classes.lnk} exact activeClassName="underline" to="/">about</NavLink>
+        <NavLink tag={Link} className={classes.lnk} exact activeClassName="underline" to="/projects">projects</NavLink>
+        <NavLink tag={Link} className={classes.lnk} exact activeClassName="underline" to="/experiences">experience</NavLink>
         </Toolbar>
       </AppBar>
-      <Router>
         <Route exact path="/" component={About} />
         <Route exact path="/experience" component={Experience} />
         <Route exact path="/projects" component={Projects} />

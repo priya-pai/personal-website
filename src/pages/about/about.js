@@ -61,7 +61,7 @@ export function About(){
             <p> 
                 I recently graduated from Columbia University in May 2020 with a double major in Computer Science and English Literature. 
                 I work as a data research assistant at the <a href="https://urbanlabs.uchicago.edu/labs/poverty">
-                University of Chicago Poverty Lab</a>, where I am conducting a quasi-experimental study on the effectiveness of 
+                University of Chicago Poverty Lab</a>, where I am conducting a quasi-experimental study on  
                 Chicago nonprofits serving first-generation college students. 
                 I've interned at <a href="https://research.adobe.com/news/coding-between-the-lines-an-internship-in-deep-learning/">Adobe Research</a>, 
                 the <a href="https://medium.com/aclu-tech-analytics/manifesting-tech-for-social-good-my-aclu-internship-experience-be32c431a5c3">
