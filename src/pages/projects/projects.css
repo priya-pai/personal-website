@@ -1,0 +1,16 @@
+.root{
+    flex-grow: 1;
+}
+.desc{
+    display:inline-block;
+    font-size:16px;
+    line-height:1.4px;
+    font-weight:500;
+    width:1050px;
+}
+.project{
+  border: 2px solid #B2CC98;
+}
+.project:hover{
+  border: 2px solid black;
+}
