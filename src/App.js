@@ -4,6 +4,13 @@ import './App.css';
 import {About} from './pages/about/about.js';
 import {Experience} from './pages/experience/experience.js';
 import {Projects} from './pages/projects/projects.js';
+import {Adobe} from './pages/projects/adobe.js';
+import {Ccs} from './pages/projects/ccs.js';
+import {CuImpact} from './pages/projects/cuimpact.js';
+import {Evictions} from './pages/projects/evictions.js';
+import {MobilePortal} from './pages/projects/mobileportal.js';
+import {Quarto} from './pages/projects/quarto.js';
+import {RacialArrests} from './pages/projects/arrests.js';
 import {  NavLink,Link, BrowserRouter as Router, Route } from "react-router-dom";
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -41,6 +48,13 @@ function App() {
         <Route exact path="/" component={About} />
         <Route exact path="/experience" component={Experience} />
         <Route exact path="/projects" component={Projects} />
+        <Route exact path="/projects/adobe" component={Adobe} />
+        <Route exact path="/projects/ccs" component={Ccs} />
+        <Route exact path="/projects/cuimpact" component={CuImpact} />
+        <Route exact path="/projects/evictions" component={Evictions} />
+        <Route exact path="/projects/mobileportal" component={MobilePortal} />
+        <Route exact path="/projects/quarto" component={Quarto} />
+        <Route exact path="/projects/racial-arrests" component={RacialArrests} />
       </Router>
     </section>
   );

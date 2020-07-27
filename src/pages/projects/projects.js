@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         fontSize:'16px',
         lineHeight: '1.4',
         fontWeight: '500',
-        width:'1050px'
+        width:'1020px'
     },
     project:{
       border: '2px solid #B2CC98'
@@ -37,7 +37,7 @@ const projectsData = [
   {
     title:'Columbia - Mobile Library Portal',
     image: mobileportal,
-    link:'https://group1-pit.github.io/'
+    link:'/projects/mobileportal'
   },
   {
     title:'ACLU - Racial Disparity in Marijuana Arrests',
@@ -66,18 +66,23 @@ const projectsData = [
   }
 ]
 
+
 export function Projects(){
-    //const classes = useStyles();
+
     return (
         <div className="desc">
-        <h1> projects </h1>
+        <h1 id='projH'> projects </h1>
         <Grid container spacing={4}>
           {
             [...Array(projectsData.length).keys()].map((index) =>
             <Grid container item xs={4} md={4} lg={4} key ={projectsData[index].title}>
               <div width='300px'height='300px' className="projectDiv">
-                 <a href={projectsData[index].link}><img className="project"
-                  src={projectsData[index].image} alt={projectsData[index].title} width='300px'height='300px'/>
+                  <a href={projectsData[index].link} target="_blank">
+                  <span className="txt">
+                    <h3>{projectsData[index].title}</h3>
+                  </span>
+                 <img className="project" src={projectsData[index].image} 
+                 alt={projectsData[index].title} width='300px'height='300px'/>
                   </a> 
               </div>
               </Grid>)

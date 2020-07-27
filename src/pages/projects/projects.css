@@ -8,9 +8,32 @@
     font-weight:500;
     width:1050px;
 }
-.project{
+.projectDiv{
   border: 2px solid #B2CC98;
 }
-.project:hover{
-  border: 2px solid black;
+.projectDiv:hover{
+    border: 2px solid black;
+}
+#projH{
+    padding-top:10px;
+    padding-bottom:30px;
+}
+.txt{
+display:none;
+}
+
+.projectDiv:hover .txt { 
+display: block; 
+position:absolute;
+margin-left:25px;
+margin-right:25px;
+background-color:#B2CC98;
+width:250px;
+margin-top:100px;
+line-height: 20px;
+color: black;
+z-index: 30;
+}
+.projectDiv:hover img{
+    opacity:0.5;
 }
