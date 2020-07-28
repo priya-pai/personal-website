@@ -65,7 +65,6 @@ const projectsData = [
   }
 ]
 
-
 export function Projects(){
 
     return (
@@ -76,13 +75,13 @@ export function Projects(){
             [...Array(projectsData.length).keys()].map((index) =>
             <Grid container item xs={4} md={4} lg={4} key ={projectsData[index].title}>
               <div width='300px'height='300px' className="projectDiv">
-                  <Link to={projectsData[index].link} style={{ textDecoration: 'none' }} target="_blank">
+              <Link to={projectsData[index].link} style={{ textDecoration: 'none' }}>
                   <span className="txt">
                     <h3>{projectsData[index].title}</h3>
                   </span>
                  <img className="project" src={projectsData[index].image} 
                  alt={projectsData[index].title} width='300px'height='300px'/>
-                  </Link> 
+                </Link> 
               </div>
               </Grid>)
           }
