@@ -6,7 +6,8 @@ import Button from '@material-ui/core/Button';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
-import './about.css'
+import './about.css';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
 my_img:{
@@ -51,7 +52,7 @@ export function About(){
             <div>
             <img src = {Priya} className={classes.my_img}></img>
             <h1 className={classes.titl}> priya pai</h1>
-            <Link to="/projects">
+            <Link to="/projects" style={{ textDecoration: 'none' }}>
             <Button variant="contained" color="primary" className={classes.butn1}>
                 P R O J E C T S
             </Button>
