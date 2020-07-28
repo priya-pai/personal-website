@@ -1,1 +1,1 @@
-priya-pai.github.io
+priya-pai.github.io/personal-website
