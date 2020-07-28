@@ -9,7 +9,7 @@ import adobe from './adobe.png';
 import cuimpact from './cuimpact.png';
 import evictions from './evictions.png';
 import './projects.css';
-import Link from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -76,13 +76,13 @@ export function Projects(){
             [...Array(projectsData.length).keys()].map((index) =>
             <Grid container item xs={4} md={4} lg={4} key ={projectsData[index].title}>
               <div width='300px'height='300px' className="projectDiv">
-                  <a href={projectsData[index].link} target="_blank">
+                  <Link to={projectsData[index].link} style={{ textDecoration: 'none' }}>
                   <span className="txt">
                     <h3>{projectsData[index].title}</h3>
                   </span>
                  <img className="project" src={projectsData[index].image} 
                  alt={projectsData[index].title} width='300px'height='300px'/>
-                  </a> 
+                  </Link> 
               </div>
               </Grid>)
           }
