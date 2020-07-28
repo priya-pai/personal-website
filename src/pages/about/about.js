@@ -51,9 +51,11 @@ export function About(){
             <div>
             <img src = {Priya} className={classes.my_img}></img>
             <h1 className={classes.titl}> priya pai</h1>
-            <Button variant="contained" color="primary" className={classes.butn1} href="/projects">
+            <Link to="/projects">
+            <Button variant="contained" color="primary" className={classes.butn1}>
                 P R O J E C T S
             </Button>
+            </Link>
             <Button variant="contained" color="primary" className={classes.butn2} href={Resume} target="_blank">
                 E X P E R I E N C E
             </Button>
