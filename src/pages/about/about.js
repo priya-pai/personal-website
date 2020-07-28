@@ -4,6 +4,9 @@ import Priya from './priya.jpeg'
 import Resume from './PPai_Resume.pdf';
 import Button from '@material-ui/core/Button';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import EmailIcon from '@material-ui/icons/Email';
+import './about.css'
 
 const useStyles = makeStyles((theme) => ({
 my_img:{
@@ -51,12 +54,12 @@ export function About(){
             <Button variant="contained" color="primary" className={classes.butn1} href="/projects">
                 P R O J E C T S
             </Button>
-            <Button variant="contained" color="primary" className={classes.butn2} href="/writing">
+            <Button variant="contained" color="primary" className={classes.butn2} href={Resume} target="_blank">
                 E X P E R I E N C E
             </Button>
             </div>
         <div className={classes.desc}>
-            <p> I'm an analyst, researcher, and writer passionate about working and creating for the social and creative good.
+            <p> I'm an analyst, designer, and researcher passionate about working and creating for the social and creative good.
             </p>
             <p> 
                 I recently graduated from Columbia University in May 2020 with a double major in Computer Science and English Literature. 
@@ -76,6 +79,11 @@ export function About(){
             <p>
             Always open to new opportunities and projects! Find my resume <a href={Resume} target="_blank">here.</a>
             </p>
+        </div>
+        <div className='icons'>
+        <a href="https://github.com/priya-pai" target="_blank"><GitHubIcon fontSize="large" /></a>
+        <a href="https://www.linkedin.com/in/priya-pai-public/" target="_blank"><LinkedInIcon fontSize="large" /></a>
+        <a href="mailto:pbp2110@columbia.edu" target="_blank"><EmailIcon fontSize="large" /></a>
         </div>
         </div>
     )

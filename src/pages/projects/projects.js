@@ -9,7 +9,6 @@ import adobe from './adobe.png';
 import cuimpact from './cuimpact.png';
 import evictions from './evictions.png';
 import './projects.css';
-import Paper from '@material-ui/core/Paper';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -42,7 +41,7 @@ const projectsData = [
   {
     title:'ACLU - Racial Disparity in Marijuana Arrests',
     image: racial,
-    link:'/projects/aclu-arrests'
+    link:'/projects/racial-arrests'
   },
   {
     title:'ACLU - Evictions Analysis',

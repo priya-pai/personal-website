@@ -18,6 +18,8 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom:'30px'
     },
     butn1:{
+        marginTop:'20px',
+        padding:'10px',
         backgroundColor:'#B2CC98',
         color:'black',
         '&:hover': {

@@ -30,6 +30,10 @@ nav:{
 },
 lnk:{
   marginRight:'30px'
+},
+foot:{
+  paddingTop:'30px',
+  paddingBottom:'15px'
 }
 }));
 
@@ -42,7 +46,6 @@ function App() {
         <Toolbar id="nav">
         <NavLink tag={Link} className={classes.lnk} exact activeClassName="underline" to="/">about</NavLink>
         <NavLink tag={Link} className={classes.lnk} exact activeClassName="underline" to="/projects">projects</NavLink>
-        <NavLink tag={Link} className={classes.lnk} exact activeClassName="underline" to="/experiences">experience</NavLink>
         </Toolbar>
       </AppBar>
         <Route exact path="/" component={About} />
@@ -56,6 +59,10 @@ function App() {
         <Route exact path="/projects/quarto" component={Quarto} />
         <Route exact path="/projects/racial-arrests" component={RacialArrests} />
       </Router>
+      <footer className={classes.foot}>
+        <hr width='50%'></hr>
+        Website made by Priya Pai 2020. 
+      </footer>
     </section>
   );
 }

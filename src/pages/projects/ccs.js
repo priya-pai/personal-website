@@ -18,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
         paddingBottom:'30px'
     },
     butn1:{
-        marginTop:'10px',
+        marginTop:'20px',
+        padding:'10px',
         backgroundColor:'#B2CC98',
         color:'black',
         '&:hover': {
@@ -34,7 +35,7 @@ export function Ccs(){
             <h1>Chicago College Success Project</h1>
             <p> <b><i> University of Chicago Poverty Lab</i></b></p>
             <img src={ccsPic} height="200px" width="600px"></img>
-            <figcaption>Picture taken from Poverty Lab Website</figcaption>
+            <figcaption><i>Picture taken from Poverty Lab Website</i></figcaption>
             <div>
             <Button variant="contained" color="primary" className={classes.butn1} href="https://urbanlabs.uchicago.edu/projects/chicago-college-success" target="_blank">
                 VIEW PROJECT HERE
