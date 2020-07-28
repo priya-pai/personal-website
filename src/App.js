@@ -49,15 +49,15 @@ function App() {
         </Toolbar>
       </AppBar>
         <Route exact path="/" component={About} />
-        <Route exact path="/experience" component={Experience} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/projects/adobe" component={Adobe} />
-        <Route exact path="/projects/ccs" component={Ccs} />
-        <Route exact path="/projects/cuimpact" component={CuImpact} />
-        <Route exact path="/projects/evictions" component={Evictions} />
-        <Route exact path="/projects/mobileportal" component={MobilePortal} />
-        <Route exact path="/projects/quarto" component={Quarto} />
-        <Route exact path="/projects/racial-arrests" component={RacialArrests} />
+        <Route path="/experience" component={Experience} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/projects/adobe" component={Adobe} />
+        <Route path="/projects/ccs" component={Ccs} />
+        <Route path="/projects/cuimpact" component={CuImpact} />
+        <Route path="/projects/evictions" component={Evictions} />
+        <Route path="/projects/mobileportal" component={MobilePortal} />
+        <Route path="/projects/quarto" component={Quarto} />
+        <Route path="/projects/racial-arrests" component={RacialArrests} />
       </Router>
       <footer className={classes.foot}>
         <hr width='50%'></hr>
