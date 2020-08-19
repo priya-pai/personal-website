@@ -43,9 +43,9 @@ export function MobilePortal(){
             </div>
             <div className={classes.projBody}>
             <p> <b> Context of Project:</b> I led this project in June 2020 as a teaching assistant for Columbia's first 
-            summer <a href="https://columbia-pit.com/"> Public Interest Technology Lab</a>, which seeked to build Technology
-            for the public good. Our summer theme was libraries. </p>
-            <p> <b> Project Synopsis:</b> This project was an collaboration between 3 disciplines: urban planning, computer science, and journnalism.
+            summer <a href="https://columbia-pit.com/"> Public Interest Technology Lab</a>, which seeked to build technology
+            for the public good. Our summer theme was techology to bolster library services. </p>
+            <p> <b> Project Synopsis:</b> This project was a collaboration between 3 disciplines: urban planning, computer science, and journnalism.
             We researched existing mobile library services, focusing our attention on Houston's existing Book Mobile. We wanted to analyze how
             mobile library services could collaborate with existing social needs. We narrowed our research to using mobile library services
             to aid unemployment needs in the COVID-19 era. The project was made up of user and expert interviews, research 

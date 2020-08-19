@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {About} from './pages/about/about.js';
 import {Experience} from './pages/experience/experience.js';

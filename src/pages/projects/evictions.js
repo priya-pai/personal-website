@@ -44,7 +44,7 @@ export function Evictions(){
             <div className={classes.projBody}>
             <p> <b> Context of Project:</b> I worked on this project in Fall 2019 during my time at the American Civil Liberties Union 
             as a data science intern. The project was released to the public on January 10th, 2020. Everything in this project was in collaboration
-            and under the guidance of Sophie Beiers who led the project.  </p>
+            and under the guidance of ACLU Data Journalist, Sophie Beiers, who led the project.  </p>
             <p> <b> Project Synopsis:</b> This project analyzed national eviction data from 2012 to 2016,
             provided by the <a href="https://evictionlab.org/">Eviction Lab</a>. We focused our analysis on a state and local level
             and compared Massachusetts against the rest of the country. Our analysis was to bolster support for the <a href="https://www.passthehomesact.org/">
@@ -59,7 +59,7 @@ export function Evictions(){
                 Wrote R scripts (ggplot2) to visualize given data (used in internal reporting but not in the article).
                </li>
                <li>
-                Put together main analyses and conclusions into a RMarkdown which was reported to my superior managers/lawyers. 
+                Put together main analyses and conclusions into an RMarkdown which was reported to my superior managers/lawyers. 
                </li>
             </ul> </p>
             <p> <b> Technologies Used:</b> R (tidyverse-dplyr, janitor, ggplot2), RMarkdown </p>

@@ -45,7 +45,7 @@ export function Quarto(){
             Quarto Magazine</a>, Columbia's Offical Literary Magazine. </p>
             <p> <b> Project Synopsis:</b>  With COVID-19, our magazine had to re-imagine our annual magazine launch. I decided to code a "virtual 
             experience" which was shared during our virtual Zoom launch. This experience makes our launch, with clips of writers reading their work,
-            accessible to those who couldn't attend our launch to do timezone, technical issues, etc. and puts a creative, technological spin on the
+            accessible to those who couldn't attend our launch due to timezone, technical issues, etc. and puts a creative, technological spin on the
             traditional magazine launch.  </p>
             <p> <b> My Role:</b>
            <ul>
