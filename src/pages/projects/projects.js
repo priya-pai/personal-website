@@ -8,6 +8,7 @@ import quarto from './quarto.png';
 import adobe from './adobe.png';
 import cuimpact from './cuimpact.png';
 import evictions from './evictions.png';
+import bsl_finder from './bsl_finder.png'
 import './projects.css';
 import { Link } from 'react-router-dom';
 
@@ -29,7 +30,12 @@ const useStyles = makeStyles((theme) => ({
 
 const projectsData = [
   {
-    title:'UChicago Poverty Lab - Chicago College Success',
+    title:'Libro.fm - Bookstore Finder',
+    image: bsl_finder,
+    link:'projects/finder'
+  },
+  {
+    title:'UChicago Inclusive Economy Lab - Chicago College Success',
     image: ccs,
     link:'/projects/ccs'
   },

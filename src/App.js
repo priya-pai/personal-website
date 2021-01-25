@@ -7,6 +7,7 @@ import {Adobe} from './pages/projects/adobe.js';
 import {Ccs} from './pages/projects/ccs.js';
 import {CuImpact} from './pages/projects/cuimpact.js';
 import {Evictions} from './pages/projects/evictions.js';
+import {Finder} from './pages/projects/finder.js';
 import {MobilePortal} from './pages/projects/mobileportal.js';
 import {Quarto} from './pages/projects/quarto.js';
 import {RacialArrests} from './pages/projects/arrests.js';
@@ -54,6 +55,7 @@ function App() {
         <Route exact path="/projects/ccs" component={Ccs} />
         <Route exact path="/projects/cuimpact" component={CuImpact} />
         <Route exact path="/projects/evictions" component={Evictions} />
+        <Route exact path="/projects/finder" component={Finder} />
         <Route exact path="/projects/mobileportal" component={MobilePortal} />
         <Route exact path="/projects/quarto" component={Quarto} />
         <Route exact path="/projects/racial-arrests" component={RacialArrests} />

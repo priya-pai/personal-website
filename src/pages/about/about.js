@@ -62,25 +62,23 @@ export function About(){
             </Button>
             </div>
         <div className={classes.desc}>
-            <p> I'm an analyst, designer, and researcher passionate about working and creating for the social and creative good.
+            <p> I am an interdisciplinary engineer and creative, passionate about intersecting the arts and technology.
+                I currently work in software and design at <a href="https://libro.fm">Libro.fm Audiobooks</a>
             </p>
             <p> 
-                I recently graduated from Columbia University in May 2020 with a double major in Computer Science and English Literature. 
-                I work as a data research assistant at the <a href="https://urbanlabs.uchicago.edu/labs/poverty">
-                University of Chicago Poverty Lab</a>, where I am conducting a quasi-experimental study on  
-                Chicago nonprofits serving first-generation college students. 
+                I graduated from Columbia University in May 2020 with a double major in Computer Science and English Literature. 
                 I've interned at <a href="https://research.adobe.com/news/coding-between-the-lines-an-internship-in-deep-learning/">Adobe Research</a>, 
                 the <a href="https://medium.com/aclu-tech-analytics/manifesting-tech-for-social-good-my-aclu-internship-experience-be32c431a5c3">
-                American Civil Liberties Union</a>, and worked on interdisciplinary research projects all throughout college.
+                American Civil Liberties Union</a>, <a href="https://urbanlabs.uchicago.edu/labs/inclusiveeconomy">University of Chicago Inclusive Economy Lab</a>, and worked on interdisciplinary research and design projects all throughout college.
                 I was named a <a href="https://research.adobe.com/scholarship/previous-scholarship-award-winners/"> 
-                2019 Adobe Women-in-Tech Scholar</a>. I also helped found Columbia's first <a href="https://columbia-pit.com/#people">
-                Public Interest Technology Lab. </a>
+                2019 Adobe Women-in-Tech Scholar</a>. I also helped found Columbia's first <a href="https://columbia-pit.com/">
+                Public Interest Technology Lab.</a>
             </p>
             <p>
                 In my free time, I enjoy writing fiction, painting, and learning about coffee. 
             </p>
             <p>
-            Always open to new opportunities and projects! Find my resume <a href={Resume} target="_blank">here.</a>
+            Always open to new connections and projects! Find my resume <a href={Resume} target="_blank">here.</a>
             </p>
         </div>
         <div className='icons'>
