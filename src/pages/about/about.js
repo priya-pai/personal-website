@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, Container, makeStyles} from '@material-ui/core'
-import Priya from './priya.jpeg'
+import Priya from './priya.jpg'
 import Resume from './PPai_Resume.pdf';
 import Button from '@material-ui/core/Button';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -50,7 +50,7 @@ export function About(){
     return (
         <div>
             <div>
-            <img src = {Priya} className={classes.my_img}></img>
+            <img src = {Priya} className={classes.my_img} alt="profile-picture"></img>
             <h1 className={classes.titl}> priya pai</h1>
             <Link to="/projects" style={{ textDecoration: 'none' }}>
             <Button variant="contained" color="primary" className={classes.butn1}>
