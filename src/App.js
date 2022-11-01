@@ -62,7 +62,7 @@ function App() {
       </Router>
       <footer className={classes.foot}>
         <hr width='50%'></hr>
-        Website made by Priya Pai 2020. 
+        Website made by Priya Pai. 
       </footer>
     </section>
   );

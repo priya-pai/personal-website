@@ -34,10 +34,10 @@ export function Finder(){
         <div className={classes.desc}>
             <h1>Bookstore Finder</h1>
             <p> <b><i> Libro.fm Audiobooks</i></b></p>
-            <img src={finderPic} height="400px" width="700px"></img>
+            <img src={finderPic} height="370px" width="800px"></img>
             <figcaption><i>Picture of the finder</i></figcaption>
             <div>
-            <Button variant="contained" color="primary" className={classes.butn1} href="https://bookstorelink.com/finder" target="_blank">
+            <Button variant="contained" color="primary" className={classes.butn1} href="https://libro.fm/indies" target="_blank">
                 VIEW PROJECT HERE
             </Button>
             </div>
@@ -46,7 +46,7 @@ export function Finder(){
             inclusive identity filters and a location-based finder. Design of the map was led by Libro.fm's creative director, Nick Johnson.</p>
             <p> <b> Project Synopsis:</b> This bookstore finder maps all of Libro.fm's partner bookstores across the world. It's complete with identity-based filters, such as 
             'Black-Owned', 'Indigenous-Owned', 'Latinx-Owned', and so forth. You can also search for bookstores based on distance to a certain location or address. The map is housed
-            on Libro.fm's Bookstore Link website.</p>
+            on Libro.fm's website, and users currently use it to choose the bookstore they'd like their audiobook purchases to support.</p>
             <p> <b> My Role:</b> I engineered the functionality of the map.
            <ul>
                <li>
