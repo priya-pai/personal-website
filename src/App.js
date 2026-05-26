@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import {About} from './pages/about/about.js';
-import {Experience} from './pages/experience/experience.js';
 import {Projects} from './pages/projects/projects.js';
 import {Adobe} from './pages/projects/adobe.js';
 import {Ccs} from './pages/projects/ccs.js';
@@ -42,28 +41,8 @@ function App() {
   return (
     <section className="App">
       <Router>
-      <AppBar position="static" className={classes.nav}>
-        <Toolbar id="nav">
-        <NavLink tag={Link} className={classes.lnk} exact activeClassName="underline" to="/">about</NavLink>
-        <NavLink tag={Link} className={classes.lnk} exact activeClassName="underline" to="/projects">projects</NavLink>
-        </Toolbar>
-      </AppBar>
         <Route exact path="/" component={About}/>
-        <Route exact path="/experience" component={Experience}/>
-        <Route exact path="/projects" component={Projects}/>
-        <Route exact path="/projects/adobe" component={Adobe}/>
-        <Route exact path="/projects/ccs" component={Ccs} />
-        <Route exact path="/projects/cuimpact" component={CuImpact} />
-        <Route exact path="/projects/evictions" component={Evictions} />
-        <Route exact path="/projects/finder" component={Finder} />
-        <Route exact path="/projects/mobileportal" component={MobilePortal} />
-        <Route exact path="/projects/quarto" component={Quarto} />
-        <Route exact path="/projects/racial-arrests" component={RacialArrests} />
       </Router>
-      <footer className={classes.foot}>
-        <hr width='50%'></hr>
-        Website made by Priya Pai. 
-      </footer>
     </section>
   );
 }
