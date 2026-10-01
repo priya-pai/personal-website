@@ -39,7 +39,7 @@ export function About(){
                 She is a reader on the Michigan Quarterly Review. Her work has received support from the Tin House Writers' Workshop. She graduated from Columbia University in 2020.
             </p>
             <p>
-            Get in touch <a href="mailto:priya.jpai@gmail.com" target="_blank">here!</a>
+            Get in touch <a href="mailto:priya.jpai@gmail.com">here!</a>
             </p>
         </div>
         </div>
